@@ -33,7 +33,7 @@ public class UserController : ControllerBase
     }
 
     /// <summary>
-    /// POST register action.
+    /// POST register.
     /// </summary>
     /// <param name="credentials">Credentials.</param>
     /// <param name="cancellationToken">Cancellation token.</param>
@@ -54,7 +54,7 @@ public class UserController : ControllerBase
     }
 
     /// <summary>
-    /// POST authorize action.
+    /// POST authorize.
     /// </summary>
     /// <param name="credentials">Credentials.</param>
     /// <param name="cancellationToken">Cancellation token.</param>
@@ -75,7 +75,7 @@ public class UserController : ControllerBase
     }
 
     /// <summary>
-    /// POST logout action.
+    /// POST logout.
     /// </summary>
     /// <param name="cancellationToken">Cancellation token.</param>
     /// <returns>Status code.</returns>

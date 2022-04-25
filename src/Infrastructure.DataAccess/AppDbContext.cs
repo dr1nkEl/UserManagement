@@ -1,5 +1,4 @@
 ﻿using Domain;
-using Infrastructure.Abstractions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +9,7 @@ namespace Infrastructure.DataAccess;
 /// Application database context.
 /// </summary>
 // I did not make abstraction for context
-// because it is never used so it has no purpose to exist.
+// because it is never used so it has no purpose to exist(at least for now).
 public class AppDbContext : IdentityDbContext<User, IdentityRole<int>, int>
 {
     /// <summary>
